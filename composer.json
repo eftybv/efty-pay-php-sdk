@@ -1,6 +1,6 @@
 {
     "name": "efty-b-v/efty-pay-php-sdk",
-    "description": "PHP gRPC SDK for Efty Pay.",
+    "description": "Efty Pay PHP SDK",
     "type": "library",
     "license": "MIT",
     "authors": [

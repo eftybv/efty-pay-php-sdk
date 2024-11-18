@@ -25,7 +25,7 @@ The Efty Pay production URLs:
 - PHP 7.0 or higher
 - PECL
 - Composer
-- Efty Pay access credentials; please contact [ask@efty.com](ask@efty.com) to obtain early access.
+- Efty Pay API access credentials; please contact [ask@efty.com](ask@efty.com) to obtain early access.
 
 ## Getting started
 
@@ -55,12 +55,12 @@ Open your `composer.json` file in your preferred text editor and add in the belo
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/efty-b-v/efty-pay-php-sdk"
+      "url": "https://github.com/eftybv/efty-pay-php-sdk"
     }
-  ]
-    "require": {
-        "efty-b-v/efty-pay-php-sdk": "v1.0.0"
-    }
+  ],
+  "require": {
+    "eftybv/efty-pay-php-sdk": "v1.0.0"
+  }
 }
 ```
 
@@ -124,9 +124,9 @@ Injecting the token in the function context:
 You can now use the SDK in your project. For our quickstart and examples, please visit our [Efty Pay PHP Quickstart repository](https://github.com/eftybv/efty-pay-php-quickstart).
 
 ### Troubleshooting & Support
- - If you encounter any issues, ensure that the package name is correctly specified.
- - You can also specify a version constraint (e.g., "^1.0" or "dev-main") if you need a specific version of the SDK. It's strongly recommended to always use the latest version.
- - If you run into any other issues, contact us at [ask@efty.com](ask@efty.com).
+- If you encounter any issues, ensure that the package name is correctly specified.
+- You can also specify a version constraint (e.g., "^1.0" or "dev-main") if you need a specific version of the SDK. It's strongly recommended to always use the latest version.
+- If you run into any other issues, contact us at [ask@efty.com](ask@efty.com).
 
 ## API resource documentation
 The Efty Pay API resource documentation can be found at [https://docs.eftypay.com](https://docs.eftypay.com)

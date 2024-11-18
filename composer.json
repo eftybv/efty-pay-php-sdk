@@ -1,5 +1,5 @@
 {
-    "name": "efty-b-v/efty-pay-php-sdk",
+    "name": "eftybv/efty-pay-php-sdk",
     "version": "v1.0.1",
     "description": "Efty Pay PHP SDK",
     "type": "library",

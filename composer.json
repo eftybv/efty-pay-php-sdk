@@ -1,6 +1,6 @@
 {
     "name": "efty-b-v/efty-pay-php-sdk",
-    "version": "1.0.1",
+    "version": "v1.0.1",
     "description": "Efty Pay PHP SDK",
     "type": "library",
     "license": "MIT",

@@ -10,7 +10,6 @@ use Google\Protobuf\Internal\GPBUtil;
 
 /**
  * VatSettings contains the VAT settings for a buyer, seller or integrator.
- * &#64;todo: VAT can be changed after invoicing / open transactions.
  *
  * Generated from protobuf message <code>eftypay.common.VatSettings</code>
  */

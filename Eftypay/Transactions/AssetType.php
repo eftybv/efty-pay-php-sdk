@@ -7,8 +7,6 @@ namespace Eftypay\Transactions;
 use UnexpectedValueException;
 
 /**
- * &#64;todo: commissions can be paid by the buyer OR seller.
- *
  * Protobuf type <code>eftypay.transactions.AssetType</code>
  */
 class AssetType

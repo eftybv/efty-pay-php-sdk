@@ -116,7 +116,7 @@ class Transaction extends \Google\Protobuf\Internal\Message
      * commissionSettings are the commission settings for the transaction.
      * These are derived from the integrator settings, and can be overwritten by an Efty Pay admin on a transaction level.
      *
-     * Generated from protobuf field <code>.eftypay.integratorsInternal.CommissionSettings commissionSettings = 17;</code>
+     * Generated from protobuf field <code>.eftypay.integrators.CommissionSettings commissionSettings = 17;</code>
      */
     protected $commissionSettings = null;
     /**
@@ -232,7 +232,7 @@ class Transaction extends \Google\Protobuf\Internal\Message
      *           totalAmountToBePaidByBuyer is the total amount (in cents), to be paid by the buyer and is calculated from assetAmountIncVat+expressFeeAmountIncVat. This field is readonly and calculated and set by Efty Pay.
      *     @type int|string $totalAmountSellerReceives
      *           totalAmountSellerReceives is the total amount (in cents) the seller receives and is calculated from assetAmountIncVat - commissionAmountIncVat. This field is readonly and calculated and set by Efty Pay.
-     *     @type \Eftypay\IntegratorsInternal\CommissionSettings $commissionSettings
+     *     @type \Eftypay\Integrators\CommissionSettings $commissionSettings
      *           commissionSettings are the commission settings for the transaction.
      *           These are derived from the integrator settings, and can be overwritten by an Efty Pay admin on a transaction level.
      *     @type array|\Google\Protobuf\Internal\MapField $status
@@ -729,8 +729,8 @@ class Transaction extends \Google\Protobuf\Internal\Message
      * commissionSettings are the commission settings for the transaction.
      * These are derived from the integrator settings, and can be overwritten by an Efty Pay admin on a transaction level.
      *
-     * Generated from protobuf field <code>.eftypay.integratorsInternal.CommissionSettings commissionSettings = 17;</code>
-     * @return \Eftypay\IntegratorsInternal\CommissionSettings|null
+     * Generated from protobuf field <code>.eftypay.integrators.CommissionSettings commissionSettings = 17;</code>
+     * @return \Eftypay\Integrators\CommissionSettings|null
      */
     public function getCommissionSettings()
     {
@@ -751,13 +751,13 @@ class Transaction extends \Google\Protobuf\Internal\Message
      * commissionSettings are the commission settings for the transaction.
      * These are derived from the integrator settings, and can be overwritten by an Efty Pay admin on a transaction level.
      *
-     * Generated from protobuf field <code>.eftypay.integratorsInternal.CommissionSettings commissionSettings = 17;</code>
-     * @param \Eftypay\IntegratorsInternal\CommissionSettings $var
+     * Generated from protobuf field <code>.eftypay.integrators.CommissionSettings commissionSettings = 17;</code>
+     * @param \Eftypay\Integrators\CommissionSettings $var
      * @return $this
      */
     public function setCommissionSettings($var)
     {
-        GPBUtil::checkMessage($var, \Eftypay\IntegratorsInternal\CommissionSettings::class);
+        GPBUtil::checkMessage($var, \Eftypay\Integrators\CommissionSettings::class);
         $this->commissionSettings = $var;
 
         return $this;

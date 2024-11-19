@@ -64,4 +64,20 @@ class PaymentsClient extends \Grpc\BaseStub {
         $metadata, $options);
     }
 
+    /**
+     * GetGenericMagicLink generates a generic magic link for a seller to access the onboarding portal.
+     * It requires the ID of the seller user to be passed in.
+     * @param \Eftypay\Common\Id $argument input argument
+     * @param array $metadata metadata
+     * @param array $options call options
+     * @return \Grpc\UnaryCall
+     */
+    public function GetGenericMagicLink(\Eftypay\Common\Id $argument,
+      $metadata = [], $options = []) {
+        return $this->_simpleRequest('/eftypay.payments.Payments/GetGenericMagicLink',
+        $argument,
+        ['\Eftypay\Common\ReturnString', 'decode'],
+        $metadata, $options);
+    }
+
 }

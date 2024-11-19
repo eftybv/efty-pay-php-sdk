@@ -14,7 +14,7 @@ class Payment
         if (static::$is_initialized == true) {
           return;
         }
-        \GPBMetadata\PBPublic\Payments\Mangopay\Mangopay::initOnce();
+        \GPBMetadata\PBPublic\Payments\Mangopay\Checkout::initOnce();
         $pool->internalAddGeneratedFile(
             '
 Å

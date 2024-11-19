@@ -19,6 +19,8 @@
         "psr-4": {
             "Eftypay\\Common\\": "Eftypay/Common",
             "Eftypay\\Domains\\": "Eftypay/Domains",
+            "Eftypay\\Finances\\": "Eftypay/Finances",
+            "Eftypay\\Integrators\\": "Eftypay/IntegratorsInternal",
             "Eftypay\\Messages\\": "Eftypay/Messages",
             "Eftypay\\Payments\\": "Eftypay/Payments",
             "Eftypay\\Payments\\Mangopay\\": "Eftypay/Payments/Mangopay",
@@ -27,8 +29,8 @@
             "Eftypay\\Users\\": "Eftypay/Users",
             "GPBMetadata\\Common\\": "GPBMetadata/Common",
             "GPBMetadata\\PBPublic\\Domains\\": "GPBMetadata/PBPublic/Domains",
+            "GPBMetadata\\PBPublic\\Finances\\": "GPBMetadata/PBPublic/Finances",
             "GPBMetadata\\PBPublic\\Integrators\\": "GPBMetadata/PBPublic/Integrators",
-            "GPBMetadata\\PBPublic\\Invoices\\": "GPBMetadata/PBPublic/Invoices",
             "GPBMetadata\\PBPublic\\Messages\\": "GPBMetadata/PBPublic/Messages",
             "GPBMetadata\\PBPublic\\Payments\\": "GPBMetadata/PBPublic/Payments",
             "GPBMetadata\\PBPublic\\Payments\\Mangopay\\": "GPBMetadata/PBPublic/Payments/Mangopay",

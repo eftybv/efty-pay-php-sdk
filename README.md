@@ -8,6 +8,7 @@ The Efty Pay production URLs:
 
 ## Table of Contents
 
+- [Efty Pay PHP SDK](#efty-pay-php-sdk)
 - [Requirements](#requirements)
 - [Getting started](#getting-started)
   - [Composer](#composer)

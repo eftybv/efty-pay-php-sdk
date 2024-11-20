@@ -1,6 +1,6 @@
 {
     "name": "eftybv/efty-pay-php-sdk",
-    "version": "v1.0.4",
+    "version": "v1.0.5",
     "description": "Efty Pay PHP SDK",
     "type": "library",
     "license": "MIT",
@@ -20,7 +20,7 @@
             "Eftypay\\Common\\": "Eftypay/Common",
             "Eftypay\\Domains\\": "Eftypay/Domains",
             "Eftypay\\Finances\\": "Eftypay/Finances",
-            "Eftypay\\Integrators\\": "Eftypay/IntegratorsInternal",
+            "Eftypay\\Integrators\\": "Eftypay/Integrators",
             "Eftypay\\Messages\\": "Eftypay/Messages",
             "Eftypay\\Payments\\": "Eftypay/Payments",
             "Eftypay\\Payments\\Mangopay\\": "Eftypay/Payments/Mangopay",

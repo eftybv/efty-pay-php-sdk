@@ -39,6 +39,18 @@ class MangopayCheckoutDetails extends \Google\Protobuf\Internal\Message
      * Generated from protobuf field <code>map<string, string> payInDetails = 4;</code>
      */
     private $payInDetails;
+    /**
+     * hasPayInAmountDiscrepancy is set to true if there is a pay-in discrepancy with the amount received by Mangopay.
+     *
+     * Generated from protobuf field <code>bool hasPayInAmountDiscrepancy = 5;</code>
+     */
+    protected $hasPayInAmountDiscrepancy = false;
+    /**
+     * amountReceivedByMangopay contains the exact amount that was received by Mangopay for the initial pay-in for this transaction.
+     *
+     * Generated from protobuf field <code>int64 amountReceivedByMangopay = 6;</code>
+     */
+    protected $amountReceivedByMangopay = 0;
 
     /**
      * Constructor.
@@ -54,6 +66,10 @@ class MangopayCheckoutDetails extends \Google\Protobuf\Internal\Message
      *           checkoutStatus contains the Mangopay checkout status.
      *     @type array|\Google\Protobuf\Internal\MapField $payInDetails
      *           payInDetails contains the Mangopay pay-in ID for a particular payment method. The key is the enum string of the PaymentMethod. The value is the Mangopay Pay-In ID.
+     *     @type bool $hasPayInAmountDiscrepancy
+     *           hasPayInAmountDiscrepancy is set to true if there is a pay-in discrepancy with the amount received by Mangopay.
+     *     @type int|string $amountReceivedByMangopay
+     *           amountReceivedByMangopay contains the exact amount that was received by Mangopay for the initial pay-in for this transaction.
      * }
      */
     public function __construct($data = NULL) {
@@ -161,6 +177,58 @@ class MangopayCheckoutDetails extends \Google\Protobuf\Internal\Message
     {
         $arr = GPBUtil::checkMapField($var, \Google\Protobuf\Internal\GPBType::STRING, \Google\Protobuf\Internal\GPBType::STRING);
         $this->payInDetails = $arr;
+
+        return $this;
+    }
+
+    /**
+     * hasPayInAmountDiscrepancy is set to true if there is a pay-in discrepancy with the amount received by Mangopay.
+     *
+     * Generated from protobuf field <code>bool hasPayInAmountDiscrepancy = 5;</code>
+     * @return bool
+     */
+    public function getHasPayInAmountDiscrepancy()
+    {
+        return $this->hasPayInAmountDiscrepancy;
+    }
+
+    /**
+     * hasPayInAmountDiscrepancy is set to true if there is a pay-in discrepancy with the amount received by Mangopay.
+     *
+     * Generated from protobuf field <code>bool hasPayInAmountDiscrepancy = 5;</code>
+     * @param bool $var
+     * @return $this
+     */
+    public function setHasPayInAmountDiscrepancy($var)
+    {
+        GPBUtil::checkBool($var);
+        $this->hasPayInAmountDiscrepancy = $var;
+
+        return $this;
+    }
+
+    /**
+     * amountReceivedByMangopay contains the exact amount that was received by Mangopay for the initial pay-in for this transaction.
+     *
+     * Generated from protobuf field <code>int64 amountReceivedByMangopay = 6;</code>
+     * @return int|string
+     */
+    public function getAmountReceivedByMangopay()
+    {
+        return $this->amountReceivedByMangopay;
+    }
+
+    /**
+     * amountReceivedByMangopay contains the exact amount that was received by Mangopay for the initial pay-in for this transaction.
+     *
+     * Generated from protobuf field <code>int64 amountReceivedByMangopay = 6;</code>
+     * @param int|string $var
+     * @return $this
+     */
+    public function setAmountReceivedByMangopay($var)
+    {
+        GPBUtil::checkInt64($var);
+        $this->amountReceivedByMangopay = $var;
 
         return $this;
     }

@@ -18,7 +18,7 @@ The Efty Pay production URLs:
   - [Auto loading](#auto-loading)
   - [Authentication](#authentication)
   - [Quickstarts](#quickstarts)
-  - [Troubleshooting](#troubleshooting)
+  - [Troubleshooting](#troubleshooting-support)
 - [API resource documentation](#api-resource-documentation)
 - [License](#license)
 
@@ -26,7 +26,7 @@ The Efty Pay production URLs:
 - PHP 7.0 or higher
 - PECL
 - Composer
-- Efty Pay API access credentials; please contact [ask@efty.com](ask@efty.com) to obtain early access.
+- Efty Pay API access credentials; please fill out the [access request form](https://forms.gle/fk85K45eThgepi1Q8) to obtain early access.
 
 ## Getting started
 
@@ -39,7 +39,7 @@ Under the hood the Efty Pay PHP SDK uses gRPC & Protobuf. If not enabled yet, yo
 sudo pecl install grpc
 ```
 
-After you install the gRPC extension, make sure to to enable the extension in your `php.ini` file:
+After you install the gRPC extension, make sure to enable the extension in your `php.ini` file:
 ```
 extension=grpc.so
 ```
@@ -127,7 +127,7 @@ You can now use the SDK in your project. For our quickstart and examples, please
 ### Troubleshooting & Support
 - If you encounter any issues, ensure that the package name is correctly specified.
 - You can also specify a version constraint (e.g., "^1.0" or "dev-main") if you need a specific version of the SDK. It's strongly recommended to always use the latest version.
-- If you run into any other issues, contact us at [ask@efty.com](ask@efty.com).
+- If you run into any other issues, contact us at [api@efty.com](api@efty.com).
 
 ## API resource documentation
 The Efty Pay API resource documentation can be found at [https://docs.eftypay.com](https://docs.eftypay.com)
